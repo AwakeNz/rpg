@@ -516,7 +516,7 @@ if(isset($_SESSION['id']) and ($gebruiker['admin'] == 3 or getSetting('showExitB
 }
 
 //enable snow
-if((empty($_SESSION['id']) or $gebruiker['sneeuwaan']) AND 1==2){?>
+if((empty($_SESSION['id']) or $gebruiker['sneeuwaan'])){?>
     <div id="snow"></div>
     <?
 }
